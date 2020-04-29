@@ -1,0 +1,47 @@
+* {
+    font-family: acuta, serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+article img {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+h1 {
+    color: rgb(105, 0, 35);
+    font-size: 50px;
+    font-weight: bold;
+}
+h2 {
+    color: rgb(105, 0, 35);
+    font-size: 30px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.lista-contatos {
+    list-style-type: none;
+}
+a.redes-sociais {
+    text-decoration: none;
+    color: black;
+}
+a.redes-sociais:hover {
+    color: gray;
+    transition: all 0.8s ease-in-out;
+}
+i.fa-linkedin, i.fa-github {
+    background-color: white;
+    color: black;
+}
+i.fa-linkedin:hover, i.fa-github:hover {
+    background-color: white;
+    color: gray;
+    transition: all 0.8s ease-in-out;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Sniglet,sans-serif;
+    font-size: 18px;
+}
+.container-fluid {
+    padding: 0;
+}
+section.main-content {
+    background-image: url('../img/bg-header.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-dark:hover {
+    background-color: darkred;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.informacoes {
+    height: 60vh;
+}
+.offer {
+    height: 60vh;
+    background-color: #8c654c;
+}
+.offer .icons i.fa, .fab{
+    background-color: #fff;
+    color: #8c654c;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 24px;
+}
+.offer .icons i.fa:hover, .fab:hover{
+    background-color: #8c654c;
+    color: #fff;
+    transition: all 0.8s ease-in-out;
+}
+.offer .icons .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plus {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d4c1a1;
+    background-image: url(../img/bakery.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.plus div {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgba(0,0,0,0.5);
+}
+.fa-angle-double-down {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 15px 24px;
+    margin-bottom: 3vh;
+    transition: all 0.8s ease-in-out;
+}
+.fa-angle-double-down:hover {
+    background-color: #fff;
+    color: #343a40;
+}
+.title p {
+    text-align: center;
+}
+.products {
+    height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 120px auto;
+}
+.products, .products .handler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #fff;
+    transition: all 0.4s linear;
+    background-position: center;
+}
+.product:hover {
+    cursor: pointer;
+    filter: grayscale(60%);
+    transform: scale(0.9);
+}
+.bread {
+    background-image: url(../img/bread.jpg);
+    background-size: cover;
+    filter: contrast(1.4);
+}
+.bacon {
+    background-image: url(../img/bacon.jpg);
+    background-size: cover;
+    filter: contrast(1.4);
+}
+.coffee {
+    background-image: url(../img/coffee.jpg);
+    background-size: cover;
+    filter: contrast(1.4);
+}
+.cheese {
+    background-image: url(../img/cheese.jpg);
+    background-size: cover;
+    filter: contrast(1.4);
+}
+.copy {
+    color: #fff;
+    text-align: center;
+    display: block;
+}

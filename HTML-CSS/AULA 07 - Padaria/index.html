@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 06</title>
+    <!-- CDN Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CDN FontAweomse -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Nosso estilo -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#top">
+                <img src="assets/img/logo.png" alt="Logo da nossa empresa" height="30" width="30">
+                <span>Blend 02</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#top" title="Acessar início">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+
+        <section class="main-content d-flex justify-content-center align-items-center flex-column">
+            <h1>Minha Padaria</h1>
+            <p>O melhor pãozinho do bairro</p>
+            <a href="#products" class="btn btn-dark">Ver mais</a>
+        </section>
+
+        <section id="sobre" class="informacoes d-flex justify-content-center align-items-center flex-column">
+            <h2 class="my-3">Nossa missão é te engordar</h2>
+            <p class="my-3">As melhores guloseimas estão aqui</p>
+            <a href="#produtos" class="btn btn-dark">nossos produtos</a>
+        </section>
+
+        <section id="produtos" class="offer">
+            <h1 class="text-center pt-5">Produtos</h1>
+            <p class="text-center">Conheça nossos produtos</p>
+            <article class="icons row">
+                <div class="item col-6 col-sm-3">
+                    <i class="fa fa-bread-slice mb-3"></i>
+                    <h3>Pães</h3>
+                    <span>Fresquinhos desde ontem</span>
+                </div>
+                <div class="item col-6 col-sm-3">
+                    <i class="fa fa-bacon mb-3"></i>
+                    <h3>Frios</h3>
+                    <span>Embutidos e outras carnes</span>
+                </div>
+                <div class="item col-6 col-sm-3">
+                    <i class="fa fa-coffee mb-3"></i>
+                    <h3>Cafézinho</h3>
+                    <span>Puro ou pingado</span>
+                </div>
+                <div class="item col-6 col-sm-3">
+                    <i class="fa fa-cheese mb-3"></i>
+                    <h3>Queijo</h3>
+                    <span>Cheirosos e fedidos</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="plus" class="plus">
+            <div>
+                <h1 class="col-12">Nós fazemos a diferença na sua manhã</h1>
+                <p class="col-10 offset-1">Os melhores pãezinhos desde 1900</p>
+            </div>
+            <a href="#produtos">
+                <i class="fa fa-angle-double-down"></i>
+            </a>
+        </section>
+
+        <section id="products" class="products container">
+            <div class="row handler">
+                <div class="title col-12">
+                    <h1>Todos os nossos produtos</h1>
+                    <p>Venha saborear nossas delícias</p>
+                </div>
+                <div class="product bread col-12 col-sm-6">
+                    <h2>Pães</h2>
+                    <p>Os pães mais frescos da cidade</p>
+                </div>
+                <div class="product bacon col-12 col-sm-6">
+                    <h2>Embutidos e frios</h2>
+                    <p>Os embutidos mais frescos da cidade</p>
+                </div>
+                <div class="product coffee col-12 col-sm-6">
+                    <h2>Cafés</h2>
+                    <p>Os cafés mais frescos da cidade</p>
+                </div>
+                <div class="product cheese col-12 col-sm-6">
+                    <h2>Queijos</h2>
+                    <p>Os queijos mais frescos da cidade</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="bg-dark container-fluid">
+        <div class="icons pt-5 row d-flex justify-content-center">
+            <a href="https://twitter.com/digital" title="Twitter" target="_blank"><i
+                    class="fab fa-twitter mx-3"></i></a>
+            <a href="https://facebook.com/digital" title="Facebook" target="_blank"><i
+                    class="fab fa-facebook-square mx-3"></i></a>
+            <a href="https://instagram.com/digital" title="Instagram" target="_blank"><i
+                    class="fab fa-instagram mx-3"></i></a>
+        </div>
+        <span class="copy col-12 my-3">Copyright &copy; Digital House</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
